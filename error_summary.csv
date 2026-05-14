@@ -1,4 +1,0 @@
-Model,False Negatives,False Positives
-RF,1736,131
-XGBoost,1575,158
-Autoencoder,2091,2588
