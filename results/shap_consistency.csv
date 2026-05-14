@@ -1,0 +1,4 @@
+pair,spearman_corr
+RF vs XGBoost,0.7236442945996151
+RF vs Autoencoder,0.050248120367245186
+XGBoost vs Autoencoder,0.10650540128446583
