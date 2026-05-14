@@ -1,7 +1,0 @@
-model,comparison,spearman,mean_rank_shift
-RF,SMOTE vs class_weight,0.8532240192854168,36.95
-RF,SMOTE vs raw,0.5933181305753944,83.25
-RF,class_weight vs raw,0.6590022466416969,47.25
-XGBoost,SMOTE vs class_weight,0.792373082529946,50.45
-XGBoost,SMOTE vs raw,0.7889763427167285,52.25
-XGBoost,class_weight vs raw,0.8775127583485207,2.2
