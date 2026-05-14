@@ -65,6 +65,3 @@ Faithfulness metrics (PGI/PGU) across all model versions:
 
 Python · XGBoost · Scikit-learn · TensorFlow/Keras · SHAP · OpenXAI · Pandas · Matplotlib · Seaborn
 
-## Reference
-
-NCI MSc Artificial Intelligence — Machine Learning Module (H9MLAI), 2026
