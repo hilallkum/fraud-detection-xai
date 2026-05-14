@@ -2,7 +2,7 @@
 
 **Does SMOTE distort what SHAP thinks is important?**
 
-Most fraud detection pipelines apply SMOTE to handle class imbalance, then use SHAP to explain model decisions — treating the two steps as independent. This project tests whether that assumption holds.
+Most fraud detection pipelines apply SMOTE to handle class imbalance, then use SHAP to explain model decisions, treating the two steps as independent. This project tests whether that assumption holds.
 
 ## Research Question
 
@@ -11,9 +11,9 @@ When SMOTE generates synthetic minority-class samples, it shifts the training di
 ## Key Findings
 
 - **40% of XGBoost's top-10 SHAP features change after SMOTE** compared to a class-weighted baseline
-- A SMOTE-promoted feature (V306) **actively suppresses** fraud predictions when masked — the direction is wrong
+- A SMOTE-promoted feature (V306) **actively suppresses** fraud predictions when masked, the direction is wrong
 - XGBoost trained on raw imbalanced data achieves **PGI of 0.657**, nearly double the SMOTE version (0.314)
-- SHAP rankings from class-weighted and raw models are nearly identical (Spearman 0.878), while SMOTE diverges from both — confirming the distortion is SMOTE-specific, not a general consequence of imbalance handling
+- SHAP rankings from class-weighted and raw models are nearly identical (Spearman 0.878), while SMOTE diverges from both, confirming the distortion is SMOTE-specific, not a general consequence of imbalance handling
 
 ## Models
 
@@ -59,7 +59,7 @@ SHAP comparison across model versions:
 
 Faithfulness metrics (PGI/PGU) across all model versions:
 
-![Faithfulness](results/figures/faithfulness_pgi_apgu.png)
+![Faithfulness](results/figures/faithfulness_pgi_pgu.png)
 
 ## Stack
 
